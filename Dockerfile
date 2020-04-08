@@ -5,3 +5,6 @@ RUN git clone https://github.com/gpac/gpac.git
 WORKDIR /gpac
 
 RUN apk add --no-cache gcc libc-dev zlib zlib-dev coreutils make
+RUN ./configure --use-zlib=local && \
+    make && \
+    make install
