@@ -9,3 +9,5 @@ clones the `gpac` repository (which `MP4Box` is part of), installs all required
 dependencies, compiles and installs it. The second stage of the build installs
 the `ffmpeg` binary and copies the compiled `gpac` binaries from the previous
 build stage.
+
+This repository is publicly available at: https://hub.docker.com/r/troeggla/docker-dash-transcoder
